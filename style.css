@@ -1,0 +1,22 @@
+body { height:100vh;
+     display:flex; 
+     justify-content:center; 
+     align-items:center; 
+     background:linear-gradient(135deg,#1e3c72,#2a5298);
+      font-family:Segoe UI; } .card { background:rgba(255,255,255,0.15);
+         padding:30px; border-radius:15px; 
+         backdrop-filter:blur(10px);
+          color:white; width:380px;
+         } .progress-container { height:8px; background:rgba(255,255,255,0.3);
+             border-radius:10px; 
+             overflow:hidden; 
+             margin:10px 0; } 
+             #progress { 
+                height:100%;
+                 width:0%;
+                  transition:0.4s;
+                 }
+.valid { color:#00ff88; }
+.weak { background:red; }
+.medium { background:orange; }
+.strong { background:limegreen; }
